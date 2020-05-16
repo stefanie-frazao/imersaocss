@@ -1,0 +1,39 @@
+body {
+  background-image: url('https://www.paretogroup.com.br/wp-content/uploads/2019/11/Background-Exclude-Site-Categories-1.png');
+  background-size: auto ; 
+  font-family: Roboto;
+  height: 100vh;
+}
+
+.menu {
+  background-color: white;
+}
+
+.menu ul {
+  display: flex;
+  justify-content: space-around;
+}
+
+.menu li {
+ list-style: none; 
+}
+
+a {
+  color: #6A5ACD;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+a:hover {
+  color: #BA55D3;
+}
+
+.site-subtitle, 
+.site-title {
+  color: whitesmoke;
+  text-align: center;
+}
+
+.site-subtitle {
+ font-style: italic;
+}
